@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(../images/header_bg.png) repeat-x;
+	/*background-size: 100px 100px;*/
+	font-size: 12px;
+	/*color: #333;*/
+}
+#header{
+	width:900px;
+	height:30px;
+	/*border:1px solid black;*/
+	margin:0 auto;
+}
+#header .logo{
+	width:100px;
+	height:30px;
+	/*border:1px solid red;*/
+	float:left;
+}
+#header .logo img{
+	display:block;
+}
+#header .member{
+	float:right;
+	width:70px;
+	height:30px;
+	background: url(../images/arrow.png) no-repeat 50px center;
+	line-height: 30px;
+	/*text-align: center;*/
+	cursor: pointer;
+
+}
